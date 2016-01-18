@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Samveloper\\Auditable": "src/"
+            "Samveloper\\Auditable\\": "src/"
         }
     },
     "autoload-dev": {
