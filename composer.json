@@ -1,0 +1,54 @@
+{
+    "name": "samveloper/auditable",
+    "type": "library",
+    "description": "Save the audit trail for your model, to use with Laravel",
+    "keywords": [
+        "model",
+        "laravel",
+        "ardent",
+        "revision",
+        "history",
+        "audit",
+        "audit-trail",
+        "auditable"
+    ],
+    "homepage": "https://github.com/samveloper/auditable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samiul Hoque",
+            "email": "samiul@samveloper.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/samveloper/auditable/issues",
+        "source": "https://github.com/samveloper/auditable"
+    },
+    "require": {
+        "illuminate/support": "~5.1",
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Samveloper\\Auditable": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Samveloper\\Auditable\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
