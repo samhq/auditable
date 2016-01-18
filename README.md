@@ -49,7 +49,7 @@ php artisan migrate --package=samveloper/auditable
 
 > If you're going to be migrating up and down completely a lot (using `migrate:refresh`), one thing you can do instead is to copy the migration file from the package to your `app/database` folder, and change the classname from `CreateAuditsTable` to something like `CreateAuditTable` (without the 's', otherwise you'll get an error saying there's a duplicate class)
 
-> `cp vendor/samveloper/auditable/src/migrations/2016_01_18_060817_create_audits_table.php app/database/migrations/`
+> `cp vendor/samveloper/auditable/src/migrations/2016_01_18_060817_create_audits_table.php database/migrations/`
 
 ## Docs
 
