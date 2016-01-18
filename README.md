@@ -11,7 +11,7 @@ Wouldn't it be nice to have a audit history for any model in your project, witho
 * Feroj changed title from 'Something' to 'Something else'
 * Sajid changed category from 'News' to 'Breaking news'
 * Faheem changed category from 'Breaking news' to 'News'
-* Samiul viewed this article at December 21, 2015 03:45PM.
+* Samiul viewed this resource on December 21, 2015 03:45PM.
 
 So not only can you see a history of what happened, but who did what, so there's accountability.
 
