@@ -2,9 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 > This package is developed based on [VentureCraft/Revisionable](https://github.com/venturecraft/revisionable)
@@ -35,7 +32,7 @@ Auditable is installable via [composer](http://getcomposer.org/doc/00-intro.md),
 Add the following to the `require` section of your projects composer.json file:
 
 ```php
-"samveloper/auditable": "0.*",
+"samveloper/auditable": "1.*",
 ```
 
 Run composer update to download the package
