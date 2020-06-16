@@ -1,3 +1,5 @@
+# NOTE: It is not going to be maintained. Please use the [VentureCraft/Revisionable](https://github.com/venturecraft/revisionable) for any auditing functionalities.
+
 # Auditable
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
